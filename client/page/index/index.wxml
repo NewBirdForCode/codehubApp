@@ -1,0 +1,10 @@
+<view class="index">
+  <view class="index-desc">
+    文章显示
+  </view>
+  <view class="index-bd">
+    python是一门全能性语言，简单，明确，优雅，
+    我很喜欢，
+    人生苦短，我用python！
+  </view>
+</view>

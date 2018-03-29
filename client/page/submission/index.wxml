@@ -1,0 +1,14 @@
+<view class="index">
+  <view class='index-hd'>欢迎投稿</view>
+  <view class='index-bd'>
+    <view>文章url:
+      <input placeholder='输入文章的链接'></input>
+    </view>
+    <view>视频url:
+      <input placeholder='输入视频的链接'></input>
+    </view>
+    <view>
+      <view>作者的收款二维码</view>
+    </view>
+  </view>
+</view>

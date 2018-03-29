@@ -1,0 +1,2 @@
+/* page/class/pages/Jenkins/Jenkins.wxss */
+@import "../../../common/lib/weui.wxss";
