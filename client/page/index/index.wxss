@@ -1,1 +1,62 @@
-@import "../common/index.wxss";
+.index-header{
+  height:30px;
+  width:100%;
+  text-align: center;
+  border-bottom: 1px solid #ADADAD;
+}
+.swiper-tab{
+    width: 100%;
+    border-bottom: 2rpx solid #ccc;
+    text-align: center;
+    height: 88rpx;
+    line-height: 88rpx;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.swiper-tab2{
+    width: 60px;
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.swiper-tab-item{
+    width: 30%; 
+    color:#434343;
+}
+.swiper-tab-item2{
+    color:#434343;
+}
+.active{
+    color:#F65959;
+    border-bottom: 4rpx solid #F65959;
+}
+
+.active2{
+    color:#F65959;
+}
+swiper{
+  text-align: center;
+}
+.list-title{
+    height: 88rpx;
+    line-height: 88rpx;
+    display: flex;
+   justify-content: space-between;
+   margin:35rpx
+}
+.list-right{
+  font-size:12px;
+}
+.videoArea{
+ display: flex;
+ height:100px;
+ justify-content: space-between;
+ align-items:center
+}
+.videoTitle{
+  float:left;
+  margin-left:20px;
+}
+

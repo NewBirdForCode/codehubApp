@@ -21,13 +21,13 @@
     "backgroundColor": "#ffffff",
     "list":[{
       "pagePath": "page/index/index",
-      "iconPath": "image/icon_component.png",
-      "selectedIconPath": "image/icon_component_HL.png",
+      "iconPath": "image/home.png",
+      "selectedIconPath": "image/home_click.png",
       "text": "首页"
     },{
       "pagePath": "page/class/index",
-      "iconPath": "image/icon_component.png",
-      "selectedIconPath": "image/icon_component_HL.png",
+      "iconPath": "image/curse1.png",
+      "selectedIconPath": "image/curse1_click.png",
       "text": "课程"
     },{
       "pagePath": "page/submission/index",
@@ -36,8 +36,8 @@
       "text": "投稿"
     },{
       "pagePath": "page/aboutUs/index",
-      "iconPath": "image/icon_API.png",
-      "selectedIconPath": "image/icon_API_HL.png",
+      "iconPath": "image/aboutUs.png",
+      "selectedIconPath": "image/aboutUs_click.png",
       "text": "关于我们"
     }]
   },
