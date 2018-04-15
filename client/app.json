@@ -6,7 +6,8 @@
     "page/class/pages/python/python",
     "page/class/pages/Jenkins/Jenkins",
     "page/aboutUs/index",
-    "page/submission/index"
+    "page/submission/index",
+    "page/class/pages/python/pages/demo/demo"
   ],
   "window": {
     "navigationBarTextStyle": "black",

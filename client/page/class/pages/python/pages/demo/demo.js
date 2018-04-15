@@ -4,13 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    list: [
-      {
-        "id": "python",
-        "name": "demo",
-        "url": "demo/demo"
-      },
-    ],
+    
   },
 
   /**
