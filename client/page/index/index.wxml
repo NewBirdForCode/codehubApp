@@ -1,10 +1,26 @@
 <view class="index">
-  <view class="index-desc">
-    文章显示
-  </view>
-  <view class="index-bd">
-    python是一门全能性语言，简单，明确，优雅，
-    我很喜欢，
-    人生苦短，我用python！
-  </view>
+<view class="swiper-tab">
+    <view class="swiper-tab-item {{currentTab==0?'active':''}}" data-current="0" bindtap="clickTab">精讲</view>
+    <view class="swiper-tab-item {{currentTab==1?'active':''}}" data-current="1" bindtap="clickTab">专题</view>
+</view>
+<swiper current="{{currentTab}}" duration="300"  bindchange="swiperTab">
+    <swiper-item > 
+    <view class="content">
+   <view class="list-title">
+   <view class="list-left">
+   <text>每日精讲</text></view></view>
+   <view class="videoArea">
+    <video style="width:180px;height:100px" src="45.76.212.68:8000/download/demo.mp4" ></video>
+     <text>python 第一个视频</text>
+   </view>
+     <!--保留代码  -->
+       <!-- <block wx:if = "{{list.length>0}}">
+     </block> 
+     <block wx:else = "{{list.length<0}}">
+     <image src="../../image/noData.png"> </image>
+     </block> -->
+  </view></swiper-item>
+    <swiper-item><view>筛选中</view></swiper-item>
+</swiper>
+ 
 </view>
