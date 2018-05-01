@@ -1,0 +1,4 @@
+<view class="index">
+  <view class="index-bd">demo</view>
+  <video id="myVideo" src="http://45.76.212.68:8000/download/demo.mp4"></video>
+</view>
